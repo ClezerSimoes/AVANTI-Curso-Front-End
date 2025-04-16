@@ -1,4 +1,4 @@
-# Material Curso Fundamentos HTML
+# Material Curso Front-end AVANTI
 
 Esse repósitório contem apenas o material de estudo desenvolvido durante o curso de Front-End, disponibilizado pela empresa AVANTI.
 
