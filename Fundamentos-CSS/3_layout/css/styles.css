@@ -1,0 +1,121 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* formatação geral das tags ---------------------------------------------------------------------------------------------------*/
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+/* formatação geral das classes ------------------------------------------------------------------------------------------------*/
+
+.container{
+    width: 1080px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-space-arround{
+    justify-content: space-around;
+}
+
+/* header ----------------------------------------------------------------------------------------------------------------------*/
+
+header{
+    background-color: #555;
+    padding: 10px 0;
+}
+
+header h1{
+    color: #eee;
+}
+
+/* navegação -------------------------------------------------------------------------------------------------------------------*/
+nav{
+    background-color: #888;
+    padding: 10px 0;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    background-color: #777;
+    padding: 5px;
+    display: inline-block;
+    transition: all ease-in-out 0.4s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background-color: #555;
+    color: #eee;
+    font-size: 20px;
+}
+
+/* main ------------------------------------------------------------------------------------------------------------------------*/
+main{
+    background-color: #555;
+}
+
+main h2{
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+main section{
+    display: inline-block;
+    background-color: #777;
+    border: 1px solid #555;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+main section h2{
+    margin: 15px;
+}
+
+main section article{
+    margin: 20px;
+}
+
+main section p{
+    margin: 10px;
+}
+
+main section a{
+    display: inline-block;
+    color: #fff;
+    margin-left: 10px;
+    background-color: #555;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.3s;
+    font-size: 14px;
+}
+
+main section a:hover{
+    font-size: 16px;
+}
+
+/* footer ----------------------------------------------------------------------------------------------------------------------*/
+footer{
+    color: #eee;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}

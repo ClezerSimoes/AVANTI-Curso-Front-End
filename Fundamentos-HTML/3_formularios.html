@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários em HTML</title>
+    <style>
+        label{
+            margin: 10px 0;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <form name="Cadastro" method="post" action="cadastro.php">
+                <!--campos, botões-->
+
+                <fieldset id="dados-pessoais">
+
+                    <legend>Dados Pessoais</legend>
+
+                    <div id="campo-nome">
+
+                        <label for="name">Nome: </label>
+
+                        <input type="text" placeholder="Seu Nome Completo:" required id="name">
+
+                    </div>
+
+                    <div id="campo-email">
+                        <label for="email">Email:</label>
+
+                        <input type="email" placeholder="Seu E-mail" required id="email">
+
+                    </div>
+
+                    <div id="campo-telefone">
+                        <label>Numero</label>
+                        <input type="tel" placeholder="99-99999-9999" required="required" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+                    </div>
+
+                    <div id="campo-genero">
+                        <label>Gênero</label>
+                        <input type="radio" value="masculino" name="genero"> <span>Masculino</span>
+                        <input type="radio" value="feminino" name="genero"> <span>Feminino</span>
+                    </div>
+
+                    <div id="campo-interesse">
+                        <label>Área de Interesse</label>
+                        <input type="checkbox" name="interesse" value="ti"> <span>Tecnologia da Informação</span>
+                        <input type="checkbox" name="interesse" value="comercial"> <span>Comercial</span>
+                        <input type="checkbox" name="interesse" value="financeiro"> <span>Financeiro</span>
+                    </div>
+
+                    <div id="campo-cidade">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" placeholder="Cidade:" required id="cidade">
+                    </div>
+
+                    <div id="campo-estado">
+                        <label>Estado:</label>
+                        <select name="estado" id="estado">
+                            <option value="parana">PR</option>
+                            <option value="santa-catarina">SC</option>
+                            <option value="rio-grande-sul">RS</option>
+                        </select>
+                    </div>
+
+                    <div id="campo-obs">
+                        <label>Observações</label>
+                        <textarea rows="5" name="observacoes" id="obs"></textarea>
+                    </div>
+
+                </fieldset>
+
+                <fieldset id="dados-pessoa-juridica">
+                    <legend>Dados de Pessoa Jurídica</legend>
+
+                    <div id="campo-razao-social">
+                        <label for="razao-social">Razão Social</label>
+                        <input type="text" placeholder="Razão Social" id="razao-social" required>
+                    </div>
+
+                    <div id="campo-nome-fantasia">
+                        <label for="nome-fantasia">Nome Fantasia</label>
+                        <input type="text" placeholder="Nome Fantasia" id="nome-fantasia" required>
+                    </div>
+
+                    <div id="campo-cnpj">
+                        <label for="cnpj">CNPJ</label>
+                        <input type="text" placeholder="CNPJ" id="cnpj" required>
+                    </div>
+
+                    <div id="campo-inscricao-estadual">
+                        <label for="inscricao-estadual">Inscrição Estadual</label>
+                        <input type="text" placeholder="Inscrição Estadual" id="inscricao-estadual">
+
+                        <input type="checkbox" value="isento-ie"><span>Isento de Inscrição Estadual</span>
+                    </div>
+
+                </fieldset>
+
+                <input type="submit" value="Cadastrar">
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
