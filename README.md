@@ -9,5 +9,5 @@ O curso aborda os seguintes temas e tecnologias:
 * Fundamentos de linguagem **HTML**
 * Fundamentos de linguagem **CSS**
 * Fundamentos de linguagem **JavaScript**
-* Fundamentos da bibliotaca **React**
+* Fundamentos da biblioteca **React**
 
