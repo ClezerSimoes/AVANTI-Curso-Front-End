@@ -11,3 +11,5 @@ O curso aborda os seguintes temas e tecnologias:
 * Fundamentos de linguagem **JavaScript**
 * Fundamentos da biblioteca **React**
 
+ok
+
